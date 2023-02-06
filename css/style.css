@@ -18,6 +18,31 @@ p {
   padding: 30px;
 }
 
+.footer {
+  background-color: #282323;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 4px;
+}
+
+.footer img {
+  height: 20px;
+  margin: 36px;
+}
+
+.fa-brands {
+  color: white;
+  padding: 14px;
+  margin: 24px;
+}
+
 .nav-link {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -64,4 +89,18 @@ p {
 
 .navbar-brand img {
   padding: 0 20px;
+}
+
+.grid {
+  display: grid;
+  text-align: center;
+}
+
+.gallery {
+  padding: 50px;
+}
+
+.gallery img {
+  max-width: 500px;
+  padding: 20px;
 }
