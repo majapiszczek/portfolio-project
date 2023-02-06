@@ -1,14 +1,21 @@
+body {
+  background-color: #1b1b1b;
+}
+
 a {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
-  border: 1px solid black;
   padding: 18px 30px;
   border-radius: 50px;
   line-height: 10px;
   background-color: white;
   color: #272142;
+}
+
+p {
+  padding: 30px;
 }
 
 .nav-link {
@@ -19,11 +26,14 @@ a {
 }
 
 .hero {
+  padding: 170px;
   text-align: center;
   background-image: url(/images/main.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 150px 140px;
+  background-position: center;
+  height: auto;
+  max-width: 100%;
 }
 
 .hero h2 {
@@ -50,4 +60,8 @@ a {
 .navbar a {
   background-color: transparent;
   border: none;
+}
+
+.navbar-brand img {
+  padding: 0 20px;
 }
