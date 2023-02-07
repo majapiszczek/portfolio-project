@@ -58,6 +58,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   height: auto;
+  max-height: auto;
   max-width: 100%;
 }
 
@@ -85,6 +86,10 @@ p {
 .navbar a {
   background-color: transparent;
   border: none;
+}
+
+.navbar-color {
+  background-color: rgba(000, 000, 000, 0.7);
 }
 
 .navbar-brand img {
