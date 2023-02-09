@@ -9,7 +9,12 @@ body {
   background-color: #1b1b1b;
 }
 
-a {
+p {
+  padding: 30px;
+}
+
+.hero a,
+.link a {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   font-size: 14px;
@@ -21,8 +26,11 @@ a {
   color: #272142;
 }
 
-p {
-  padding: 30px;
+.title {
+  padding: 80px;
+  color: var(--main-color);
+  font-size: 72px;
+  font-weight: bold;
 }
 
 .footer {
@@ -180,11 +188,33 @@ p {
   height: 50px;
 }
 
-.gallery-page h1 {
-  padding: 80px;
-  color: var(--main-color);
-  font-size: 72px;
+.contact-content h3 {
+  font-family: var(--main-font-family);
   font-weight: bold;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.contact-content p,
+a {
+  font-family: var(--main-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--main-color);
+  padding: 10px;
+}
+
+.contact-content a {
+  text-decoration: none;
+}
+
+.contact-content a:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.fa-solid {
+  padding: 10px;
 }
 
 @media (max-width: 600px) {
