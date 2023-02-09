@@ -66,7 +66,7 @@ p {
 }
 
 .hero {
-  padding: 170px;
+  padding: 200px;
   text-align: center;
   background-image: url(/images/main.png);
   background-size: cover;
@@ -98,6 +98,10 @@ p {
   color: var(--main-color);
 }
 
+.navbar {
+  padding: 30px 0;
+}
+
 .navbar a {
   background-color: transparent;
   border: none;
@@ -109,6 +113,10 @@ p {
 
 .navbar-brand img {
   padding: 0 20px;
+}
+
+.active {
+  color: var(--secondary-color) !important;
 }
 
 .grid {
@@ -132,10 +140,6 @@ p {
   margin: 50px 0;
 }
 
-.content-section {
-  padding: 50px;
-}
-
 .content-section p {
   padding: 0;
 }
@@ -143,6 +147,12 @@ p {
 .content-section .fa-brands {
   margin: 0;
   padding: 40px 0;
+}
+
+.about-section,
+.content,
+.contact-content {
+  padding-top: 50px;
 }
 
 .about-section img {
