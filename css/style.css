@@ -13,6 +13,25 @@ p {
   padding: 30px;
 }
 
+footer {
+  background-color: #282323;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  color: var(--main-color);
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 4px;
+}
+
+footer img {
+  height: 20px;
+  margin: 36px;
+}
+
 .hero a,
 .link a {
   font-family: var(--secondary-font-family);
@@ -31,25 +50,6 @@ p {
   color: var(--main-color);
   font-size: 72px;
   font-weight: bold;
-}
-
-.footer {
-  background-color: #282323;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer p {
-  color: var(--main-color);
-  font-family: var(--main-font-family);
-  font-size: 16px;
-  font-weight: lighter;
-  margin: 4px;
-}
-
-.footer img {
-  height: 20px;
-  margin: 36px;
 }
 
 .fa-brands {
@@ -228,6 +228,15 @@ a {
 }
 
 @media (max-width: 600px) {
+  footer {
+    display: block;
+    text-align: center;
+  }
+
+  footer p {
+    padding: 0;
+  }
+
   .hero a {
     font-size: 10px;
     padding: 10px 15px;
@@ -252,19 +261,6 @@ a {
   .navbar-brand img {
     padding: 0;
     max-width: 100px;
-  }
-
-  .footer {
-    display: block;
-  }
-
-  .footer p {
-    font-size: 10px;
-    padding: 0;
-  }
-
-  .footer img {
-    margin: 10px;
   }
 
   .content-section h1 {
