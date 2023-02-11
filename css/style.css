@@ -24,12 +24,16 @@ footer p {
   font-family: var(--main-font-family);
   font-size: 16px;
   font-weight: lighter;
-  margin: 4px;
+  padding-top: 40px;
 }
 
 footer img {
   height: 20px;
   margin: 36px;
+}
+
+footer i {
+  padding-top: 42px;
 }
 
 .hero a,
@@ -54,8 +58,6 @@ footer img {
 
 .fa-brands {
   color: var(--main-color);
-  padding: 14px;
-  margin: 24px;
 }
 
 .nav-link {
@@ -119,23 +121,6 @@ footer img {
   color: var(--secondary-color) !important;
 }
 
-.grid {
-  display: grid;
-  text-align: center;
-}
-
-.gallery {
-  display: grid;
-  padding: 0;
-  margin: 70px;
-}
-
-.gallery img {
-  max-width: 100%;
-  height: auto;
-  padding: 10px;
-}
-
 .container {
   margin: 50px 0;
 }
@@ -152,7 +137,7 @@ footer img {
 .about-section,
 .content,
 .contact-content {
-  padding-top: 50px;
+  padding: 60px 0;
 }
 
 .about-section img {
@@ -180,10 +165,9 @@ footer img {
 
 .camera {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #2d2727;
   border-radius: 4px;
-  padding: 20px;
 }
 
 .camera p {
@@ -191,6 +175,7 @@ footer img {
   font-family: var(--main-font-family);
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
 }
 
 .camera img {
@@ -227,6 +212,15 @@ a {
   padding: 10px;
 }
 
+.gallery {
+  margin: 0;
+  display: grid;
+}
+
+.gallery img {
+  padding: 10px;
+}
+
 @media (max-width: 600px) {
   footer {
     display: block;
@@ -234,16 +228,20 @@ a {
   }
 
   footer p {
+    padding: 10px;
+  }
+
+  footer i {
     padding: 0;
+  }
+
+  .hero {
+    padding: 150px 50px;
   }
 
   .hero a {
     font-size: 10px;
     padding: 10px 15px;
-  }
-
-  .hero {
-    padding: 70px 50px;
   }
 
   .hero h1 {
@@ -270,5 +268,10 @@ a {
   .content-section h2,
   p {
     font-size: 20px;
+  }
+
+  .title {
+    font-size: 40px;
+    padding-bottom: 0;
   }
 }
