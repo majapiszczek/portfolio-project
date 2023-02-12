@@ -219,6 +219,8 @@ a {
 
 .gallery img {
   padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 600px) {
